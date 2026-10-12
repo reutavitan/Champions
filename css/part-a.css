@@ -4,4 +4,41 @@
    כל הסלקטורים כאן חייבים להתחיל בקידומת: hdr- ו-nav-
    אסור לעצב כאן תגיות חשופות (div, a, ul, h2...) ואסור לשנות את .wrap
    ========================================================== */
-
+.hdr-top{background-color: var(--blue-dark);
+display: flex;
+justify-content: space-between;
+align-items:space-around;
+}
+.hdr-top-p{color:var(--gray);}
+.hdr-top-downkoad{background-color: var(--gray);
+border-radius: 20px;
+padding: 1px 6px;
+color: var(--blue-dark);}
+.hdr-header{display: flex;
+justify-content: space-between;
+margin-top: 15px;
+align-items: center;}
+.hdr-logo{width: 80px;
+background-color: var(--blue);
+height:40px;
+border-radius: 6px;}
+.hdr-icon{border-radius: 30px;
+border: 1px solid var(--border);
+padding: 10px;
+background-color: var(--gray);
+}
+.nav{background-color: var(--blue);
+color:var(--gray);
+margin-top: 15px;
+height: 50px;
+display: flex;
+justify-content: center;}
+.nav-ul{display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.nav-a{margin-left: 10px;
+height: 40px;}
+.nav-a-selected{background-color: var(--blue-dark);
+   /* height: 100%; */
+}
