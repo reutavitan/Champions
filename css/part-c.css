@@ -4,4 +4,66 @@
    כל הסלקטורים כאן חייבים להתחיל בקידומת: grid-
    אסור לעצב כאן תגיות חשופות (div, a, ul, h2...) ואסור לשנות את .wrap
    ========================================================== */
+.grid-title {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: end;
+   padding-bottom: 10px;
+}
+.grid-title h2 {
+   color:#1b1f24
+}
+.grid-title span {
+   color:#1d4e89
+}
+.grid-divider {
+   height: 2px;
+   background-color: #1d4e89;
+   margin-bottom: 15px;
+}
+.grid-articles {
+   display:flex;
+   flex-wrap:wrap;
+   justify-content: space-between;
+   row-gap: 20px;
+}
+
+.grid-single-post {
+   width: 32%;
+   min-height: 220px;
+   padding-bottom: 15px;
+   border: solid rgb(202, 201, 201) 1px;
+   border-radius: 15px;
+}
+.grid-img-div{
+   width: 100%;
+   height: 120px;
+   background-color:rgb(210, 210, 224);
+   margin-bottom: 10px;
+   border-radius: 15px 15px 0px 0px;
+}
+.grid-single-post span {
+   align-items: end;
+   font-size: 0.9rem;
+}
+.grid-single-post h4 {
+   font-weight: lighter;
+   font-size: 0.9rem;
+}
+.grid-post-content {
+padding-right: 15px;
+}
+
+
+
+
+
+
+.grid-post-title {
+
+}
+.grid-post-h4{
+
+}
 
