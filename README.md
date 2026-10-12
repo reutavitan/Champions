@@ -6,7 +6,7 @@
 | חלק | מה בונים | קובץ CSS | קידומת מחלקות | אחראית |
 |---|---|---|---|---|
 | A | סרגל עליון, header, תפריט ראשי עם תפריט נפתח | css/part-a.css | hdr-, nav- | מלכה |
-| B | breadcrumb, כותרת, כתבה ראשית, footer | css/part-b.css | hero-, ftr- | חנה |
+| B | breadcrumb, כותרת, כתבה ראשית, footer | css/part-b.css | hero-, ftr- | רעות ג'ולי |
 | C | אזור כתבות: שישה כרטיסים באותו גודל | css/part-c.css | grid- |חנה |
 | D | אזור כתבות: שני כרטיסים רחבים + רשימה | css/part-d.css | wide- | שוהם|
 | E | בונוס: pager + "טוען כתבות" | css/part-e.css | pager- | |
