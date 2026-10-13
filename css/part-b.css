@@ -4,4 +4,85 @@
    כל הסלקטורים כאן חייבים להתחיל בקידומת: hero- ו-ftr-
    אסור לעצב כאן תגיות חשופות (div, a, ul, h2...) ואסור לשנות את .wrap
    ========================================================== */
+.hero-placeholder{
+display: flex;
+flex-direction: column;
+}
+.hero-Breadcrumb{
+   
+}
+.hero-Breadcrumb-titel{
+   color: var(--blue);
+   font-weight: bold;
+}
+.hero-Breadcrumb-category{
+   color: var(--gray);
+}
+.hero-Breadcrumb-subtitle{
+   color: var(--gray);
+}
+.hero-cards{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+}
+.hero-main-card{
+display: flex;
+flex-direction: column;
+flex: 50%;
+border: 1px solid var(--border) ;
+height: 500px;
+border-radius: 10px ;
 
+
+}
+.hero-cards-img{
+  flex: 7;
+   background-color: var(--border);
+   border-bottom: var(--border);
+   border-top-left-radius:5px ;
+   border-top-left-radius: 10px ;
+border-top-right-radius: 10px ;
+  
+}
+.hero-cards-img-second{
+   flex: 70%;
+   background-color: var(--border);
+   border-bottom: var(--blue);
+   border-top-left-radius: 10px ;
+border-top-right-radius: 10px ;
+   
+}
+.hero-cards-red{
+flex: 1;
+background-color: var(--accent);
+color: white;
+width: fit-content;
+margin-top: 10px;
+} 
+.hero-cards-titel{
+flex: 1;
+font-weight: bold;
+
+}
+.hero-cards-summary{
+flex: 1;
+color: var(--gray);
+}
+.hero-cards-author{
+flex: 1;
+color: var(--gray);
+margin-top: auto;
+}
+.hero-second-card{
+display: flex;
+flex-direction: column;
+flex: 30%;
+border: 1px solid var(--border) ;
+border-radius: 10px ;
+
+height: 500px;
+}
+.hero-cards-space{
+   flex: 10%;
+}
