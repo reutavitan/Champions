@@ -13,125 +13,90 @@
 </head>
 <body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- ============ PART A START ============ -->
+
+<!-- TODO (חלק A) - מחליפים את ההערה הזאת ואת השורות שמתחתיה בקוד שלכם. אל תמחקו את שורות ה-START/END.
+  1. סרגל עליון: טקסט "הורידו את האפליקציה" וכפתור/קישור, בשורה אחת (flex + justify-content: space-between).
+  2. header: לוגו (תיבת צבע עם טקסט), שורת תאריך באמצע, 3 אייקוני רשתות (עיגולים עם טקסט). הכול בשורה אחת.
+  3. תפריט ראשי: 12 פריטים בשורה (flex-wrap). פריט אחד "פעיל" בצבע שונה.
+     שני פריטים עם תפריט נפתח של 3 תתי-פריטים שנפתח במעבר עכבר (hover) - ב-CSS בלבד, בלי JavaScript.
+     רמז: li עם position: relative, והתפריט הנפתח עם position: absolute ו-display: none, ובמעבר עכבר display: block.
+  קידומות מחלקות: hdr-  ו-  nav-
+-->
+<div class="hdr-placeholder">
+
+  <div class="hdr-top">
+    <p class="hdr-top-p">הורידו את האפליקציה לקריאה נוחה</p>
+    <a href="" class="hdr-top-downkoad">הורדה</a>
+    </div>
+    <header class="hdr-header">
+      <div class="hdr-logo">שם האתר</div>
+     
+      <span class="hdr-date">יום שני כ"ב בתשרי תשפ"ז | 12.10.2026</span>
+      
+      <div>
+        <span class="hdr-icon" >FB</span>
+        <span class="hdr-icon">X</span>
+        <span class="hdr-icon">WA</span>
+
+      </div>
+    </header>
+    <nav class="nav">
+      <ul class="nav-ul">
+     <li> <a href="" class="nav-a">חדשות</a></li>
+      <li><a href="" class="nav-a">פוליטי-מדיני</a></li>
+      <li><a href="" class="nav-a">בריאות</a></li>
+      <li class="nav-a-selected"><a href="" class="nav-a">עסקים ונדל"ן</a></li>
+      <li><a href="" class="nav-a">משפחה</a></li>
+      <li><a href="" class="nav-a">תרבות</a></li>
+      <li><a href="" class="nav-a">יהדות</a></li>
+      <li><a href="" class="nav-a">ספורט</a></li>
+      <li><a href="" class="nav-a">טכנולוגיה</a></li>
+      <li><a href="" class="nav-a">אוכל</a></li>
+      <li><a href="" class="nav-a">חינוך</a></li>
+      <li><a href="" class="nav-a">מזג אויר</a></li></ul>
+    </nav>
+    <footer class="ftr-footer">
+      <div class="ftr-container-bottom">
+      <ul class="ftr-ul1">
+        <span>קטגוריות</span>
+<li>חדשות</li>
+<li>בריאות</li>
+<li>עסקים ונדל"ן</li>
+<li>משפחה</li>      </ul>
+ <ul class="ftr-ul2">
+        <span>קישורים</span>
+<li>אודות</li>
+<li>פרסום באתר</li>
+<li>תנאי שימוש</li>
+<li>הצהרת נגישות</li>      </ul>
+<div class="ftr-follow">
+  <p >עקבו אחרינו</p>
+  <br>
+  <span class="ftr-icon">FB</span>
+  <span class="ftr-icon">X</span>
+  <span class="ftr-icon">WA</span>
+
+</div>
+</div>
+<hr class="ftr-line">
+<p class="ftr-p">כל הזכויות שמורות לפרויקט התרגול</p>
+    </footer>
+</div>
+
+<!-- ============ PART A END ============ -->
+
+
+<main class="wrap">
+
+<!-- ============ PART B1 START ============ -->
+
+<!-- TODO (חלק B) - breadcrumb, כותרת וכתבה ראשית:
+  1. breadcrumb: "עמוד הבית &gt; עסקים ונדל"ן".
+  2. כותרת h1 עם שם הקטגוריה + שורת משנה קצרה.
+  3. בלוק כתבה ראשית: כרטיס גדול (בערך שני שליש מהרוחב) וכרטיס משני (שליש), זה לצד זה. בלי תמונות: תיבת צבע במקומה.
+  קידומת מחלקות: hero-
+-->
 <main class="wrap">
 <div class="hero-placeholder"> 
   <div class="hero-Breadcrumb">
@@ -162,6 +127,194 @@
 </article>
 </section>
 </div>
+
+<!-- ============ PART B1 END ============ -->
+
+
+<!-- ============ PART C START ============ -->
+
+<!-- TODO (חלק C) - אזור כתבות מסוג 1:
+  1. שורת כותרת: שם האזור (למשל "צרכנות") מימין, וקישור "עוד ב..." משמאל. קו תחתון.
+  2. שישה כרטיסים באותו גודל: 3 בשורה, שורתיים. כל הכרטיסים בשורה באותו גובה.
+  3. כרטיס: תיבת צבע, כותרת, כותרת משנה, שורה קטנה "כותב | תאריך".
+  קידומת מחלקות: grid-
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <div class="grid-placeholder">
 <article>
